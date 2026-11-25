@@ -1,6 +1,6 @@
 # ParaBank: testes E2E com Playwright, TypeScript e BDD
 
-![E2E](https://github.com/SEU-USUARIO/qa-parabank-playwright-bdd/actions/workflows/e2e.yml/badge.svg)
+![E2E](https://github.com/jr-silva-dev/qa-parabank-playwright-bdd/actions/workflows/e2e.yml/badge.svg)
 
 Testes de ponta a ponta do [ParaBank](https://parabank.parasoft.com), um banco de demonstração público da Parasoft, escritos em **BDD (Gherkin em português)** com **Playwright** e **TypeScript**, usando **Page Object Model** e rodando no **GitHub Actions**.
 
