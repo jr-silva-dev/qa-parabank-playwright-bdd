@@ -1,0 +1,19 @@
+{
+  "name": "qa-parabank-playwright-bdd",
+  "version": "1.0.0",
+  "description": "Testes E2E do ParaBank (banco demo) com Playwright, TypeScript e BDD em português",
+  "private": true,
+  "scripts": {
+    "bddgen": "bddgen",
+    "test": "bddgen && playwright test",
+    "test:headed": "bddgen && playwright test --headed",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.10",
+    "playwright-bdd": "^9.2.1",
+    "typescript": "^7.0.2"
+  }
+}
